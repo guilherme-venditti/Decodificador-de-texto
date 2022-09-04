@@ -11,7 +11,7 @@ function criptografar() {
             alert('Digite um texto!')
 
         } else {
-        text = text.replace(/e/, 'enter')
+        text = text.replace(/e/g, 'enter')
          .replace(/i/g, 'imes')
          .replace(/a/g, 'ai')
          .replace(/o/g, 'ober')
