@@ -30,7 +30,7 @@ function descriptografar () {
 
     } else {
      text = text
-     .replace(/enter/, 'e')
+     .replace(/enter/g, 'e')
      .replace(/imes/g, 'i')
      .replace(/ai/g, 'a')
      .replace(/ober/g, 'o')
